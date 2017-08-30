@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "500597672430",
+    "firebase_url": "https://yoapp-647fd.firebaseio.com",
+    "project_id": "yoapp-647fd",
+    "storage_bucket": "yoapp-647fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500597672430:android:1c47edb3c7a377c8",
+        "android_client_info": {
+          "package_name": "pl.nygamichal.yoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500597672430-irab9d24lh5j902p3765f25bn791t8v0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pl.nygamichal.yoapp",
+            "certificate_hash": "2fa7deffce6dfabf3633d95b4d169c2ce524202b"
+          }
+        },
+        {
+          "client_id": "500597672430-qmkdftf7llklaj2uhi8supd5hu103eju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiFsJJ6HG2qYDEk9dLuvD8RHpB3c0Rh4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500597672430-qmkdftf7llklaj2uhi8supd5hu103eju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

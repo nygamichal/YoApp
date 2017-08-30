@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="pl.nygamichal.yoapp.LoginActivity">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:hint="Email"
+    android:id="@+id/editTextEmail"
+    android:inputType="textEmailAddress"
+    />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:layout_below="@+id/editTextEmail"
+    android:hint="Password"
+    android:id="@+id/editTextPassword"
+    android:inputType="textPassword"
+    />
+
+<Button
+    android:id="@+id/buttonLogin"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/editTextPassword"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login/Register"
+
+    />
+
+</RelativeLayout>
